@@ -27,6 +27,7 @@ Instruction trace is a software tracing mechanism that allocates buffer, capture
 2.What common events lead to the creation of a process?
 
 The  common events leading to the creation of a process are
+
  i)New batch job
  
  ii)Interactive log-on
@@ -52,24 +53,33 @@ This is done by interchanging the data from RAM to secondary & Vice-versa. This 
 
 Here all the suspended states were in blocked state at the time of suspension. However each process in the suspended state was originally blocked on a particular event. when that event occurs, the process is not blocked and is potentially available for execution. so we have two blocked states in 3.9(b).
 the two blocked states are:
+
  i)Blocked: The process is in main memory and awaiting an event.
+ 
  ii)Blocked/Suspended:The process is in secondary memory and awaiting an event.
  
  
 6.List four characteristics of a suspended process?
 
 The suspended process has the following characteristics
+
  i)The process is not immediately available for execution.
+ 
  ii)The process may or maynot be waiting on an event. If it is waiting on an event, then this blocked condition is independent of the suspended condition, and occurence of the blocking event doesnot enable the process to be executed immediately.
+ 
  iii)The process was placed in a suspended state by an agent: either itself, a parent process, or the OS, for the purpose of preventing its execution.
+ 
  iV)The process may not be removed from this state untill the agent explicitly orders the removal.
  
  
 7.List three general categories of information in a process control block.
 
 The Process Control Block information can be categorised into three general categories:
+
  i)Process identification
+ 
  ii)Processor state information
+ 
  iii)Process control information
  
  
@@ -93,8 +103,11 @@ Trap:
 10.Give three examples of an interrupt?
 
 Three examples of interrupt are:
+
  i)Clock interrupt
+ 
  ii)I/O interrupt
+ 
  iii)Memory fault
  
  
