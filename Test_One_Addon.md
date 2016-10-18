@@ -28,8 +28,11 @@ Instruction trace is a software tracing mechanism that allocates buffer, capture
 
 The  common events leading to the creation of a process are
  i)New batch job
+ 
  ii)Interactive log-on
+ 
  iii)Created by OS to provide a service
+ 
  iV)Spawned by existing process
  
  
